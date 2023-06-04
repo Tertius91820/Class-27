@@ -10,10 +10,32 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
-img{
+h1{
+  padding-left: 220px;
+}
+
+button{
+  padding-left: 10px;
+  border: solid black 1px;
+}
+
+
+
+img,
+h2,
+h3{
   display: block;
-  margin: 0 auto;
-  max-width: 800px;
+  margin: 20 20;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  max-width: 400px;
+}
+
+h3{
+  padding-top: 50px;
+}
+section{
+ float: left;
 }
 
 
